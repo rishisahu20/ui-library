@@ -5,7 +5,8 @@
 ## Usage
 
 ```
-const uiLibButton = require('@rsuilib/ui-lib-button');
+import { Button, Text } from "@rsuilib/ui-lib";
+import { Button } from "@rsuilib/ui-lib-button";
 
 // TODO: DEMONSTRATE API
 ```

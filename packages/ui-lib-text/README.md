@@ -1,11 +1,14 @@
 # `@rsuilib/ui-lib-text`
 
+###### maintained by Rishi Sahu
+
 > TODO: description
 
 ## Usage
 
 ```
-const uiLibText = require('@rsuilib/ui-lib-text');
+import { Button, Text } from "@rsuilib/ui-lib";
+import { Text } from "@rsuilib/ui-lib-text";
 
 // TODO: DEMONSTRATE API
 ```

@@ -2,6 +2,8 @@
 
 > TODO: description
 
+###### maintained by Rishi Sahu
+
 ## Usage
 
 ```

@@ -2,10 +2,12 @@
 
 > TODO: description
 
+###### maintained by Rishi Sahu
+
 ## Usage
 
 ```
-const uiLib = require('@rsuilib/ui-lib');
+import { Button, Text } from "@rsuilib/ui-lib";
 
 // TODO: DEMONSTRATE API
 ```
