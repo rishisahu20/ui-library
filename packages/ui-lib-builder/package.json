@@ -1,0 +1,34 @@
+{
+  "name": "@rsuilib/ui-lib-builder",
+  "version": "1.0.0",
+  "description": "package configuration and builder for components",
+  "keywords": [],
+  "author": "rishisahu <rishi.sahu@go-mmt.com>",
+  "license": "ISC",
+  "main": "lib/ui-lib-builder.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "ui-lib-builder": "./lib/ui-lib-builder.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "rollup": "^2.70.0",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}

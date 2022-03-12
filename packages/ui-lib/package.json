@@ -1,0 +1,33 @@
+{
+  "name": "@rsuilib/ui-lib",
+  "version": "1.0.0",
+  "description": "Parent library directory",
+  "keywords": [],
+  "author": "rishisahu <rishi.sahu@go-mmt.com>",
+  "license": "ISC",
+  "main": "dist/ui-lib.cjs.js",
+  "module": "dist/ui-lib.esm.js",
+  "src": "lib/ui-lib.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "ui-lib-builder",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@rsuilib/ui-lib-button": "^1.0.0",
+    "@rsuilib/ui-lib-text": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rsuilib/ui-lib-builder": "^1.0.0"
+  }
+}
