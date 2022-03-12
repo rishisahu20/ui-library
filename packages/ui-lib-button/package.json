@@ -1,6 +1,6 @@
 {
   "name": "@rsuilib/ui-lib-button",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Button Component",
   "keywords": [],
   "author": "rishisahu20 <rishi.sahu20@gmail.com>",
@@ -24,7 +24,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
-    "@rsuilib/ui-lib-builder": "^1.0.3",
+    "@rsuilib/ui-lib-builder": "^1.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
