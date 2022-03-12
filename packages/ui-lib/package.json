@@ -1,6 +1,6 @@
 {
   "name": "@rsuilib/ui-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parent library directory",
   "keywords": [],
   "author": "rishisahu <rishi.sahu@go-mmt.com>",
@@ -24,10 +24,10 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@rsuilib/ui-lib-button": "^1.0.0",
-    "@rsuilib/ui-lib-text": "^1.0.0"
+    "@rsuilib/ui-lib-button": "^1.0.1",
+    "@rsuilib/ui-lib-text": "^1.0.1"
   },
   "devDependencies": {
-    "@rsuilib/ui-lib-builder": "^1.0.0"
+    "@rsuilib/ui-lib-builder": "^1.0.1"
   }
 }
