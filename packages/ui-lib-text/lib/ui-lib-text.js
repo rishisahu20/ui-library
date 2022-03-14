@@ -4,7 +4,6 @@ import styles from "./styles.css";
 
 const Text = ({ children, className, as = "p", variant, ...rest }) => {
   const textVariant = styles[variant] || "Body";
-  console.log(textVariant);
   const classes = cx(
     styles.Text,
     {
@@ -12,14 +11,7 @@ const Text = ({ children, className, as = "p", variant, ...rest }) => {
     },
     className
   );
-  return React.createElement(
-    as,
-    {
-      ...rest,
-      className: classes,
-    },
-    children
-  );
+  return <p className={classes}>{children}</p>;
 };
 
 export { Text };
