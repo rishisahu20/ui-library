@@ -1,17 +1,10 @@
 import React from "react";
-// import cx from "clsx";
 import "./styles.css";
 
 const Button = ({ children, className, variant, ...rest }) => {
-  const classes = cx(
-    styles.Button,
-    {
-      [styles.ButtonSecondary]: variant === "secondarys",
-    },
-    className
-  );
+  console.log("variant", variant);
   return (
-    <button {...rest} className={classes}>
+    <button {...rest} className={variant}>
       {children}
     </button>
   );

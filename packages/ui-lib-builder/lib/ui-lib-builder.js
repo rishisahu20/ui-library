@@ -21,10 +21,7 @@ const inputOptions = {
   external: ["react"],
   plugins: [
     resolve(),
-    postcss({
-      // Key configuration
-      modules: true,
-    }),
+    postcss(),
     babel({
       presets: ["@babel/preset-env", "@babel/preset-react"],
       babelHelpers: "bundled",
